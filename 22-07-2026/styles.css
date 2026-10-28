@@ -1,0 +1,53 @@
+ style
+        p{
+            color: blueviolet;
+        }
+        #para1{
+            color: darkblue;
+        }
+    
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:powderblue;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+form{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+label{
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="Password"]
+{
+    width: 95%;
+    padding: 8px;
+    border: 1px solid gray;
+}
+input[type="submit"]
+{
+    background-color:green;
+    color: aliceblue;
+    padding: 8px 15px;
+    border: none;
+    cursor:pointer;
+}
+
+input[type="reset"]
+{
+    background-color:darkgrey;
+    color:black;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
